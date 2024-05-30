@@ -1,5 +1,5 @@
-User.create!(name: "Peter", email: "peter@test.com", password_digest: "password")
-User.create!(name: "Test", email: "test@test.com", password_digest: "password")
+# User.create!(name: "Peter", email: "peter@test.com", password_digest: "password")
+# User.create!(name: "Test", email: "test@test.com", password_digest: "password")
 
 Post.create!(user_id: 1, title: Faker::Company.catch_phrase, body: Faker::Hipster.paragraph(sentence_count: 6), image: "https://static.miraheze.org/greatcharacterswiki/f/fa/SonicSmash.png")
 Post.create!(user_id: 1, title: Faker::Company.catch_phrase, body: Faker::Hipster.paragraph(sentence_count: 6), image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqoH6zyh3MMj79Z3Lm6SYASaXj64I9INoZTw&s")
